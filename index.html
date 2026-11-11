@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flowspace</title>
+<meta name="description" content="Flowspace helps residential developers and architects evaluate, optimize, and visualize healthier homes within real-world project constraints.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="author" content="Flowspace">
+<meta property="og:title" content="Flowspace — AI for designing healthier spaces">
+<meta property="og:description" content="Flowspace helps residential developers and architects evaluate, optimize, and visualize healthier homes within real-world project constraints.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+<!-- ============================ NAV ============================ -->
+<header class="nav">
+  <div class="nav-in">
+    <a class="mark" href="#top" aria-label="Flowspace home">
+      <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+        <rect x="1.6" y="1.6" width="16.8" height="16.8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+          <path d="M6.8 3.6 V16.4"/>
+          <path d="M6.8 3.6 H15.6"/>
+          <path d="M6.8 9.6 H12.8"/>
+        </g>
+        <path d="M18.4 6 V10.8" fill="none" stroke="var(--sage)" stroke-width="1.5"/>
+      </svg>
+      <span>Flowspace</span>
+    </a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#platform">Platform</a>
+      <a href="#optimization">Optimization</a>
+      <a href="#frameworks">Design frameworks</a>
+      <a href="#practice">Workflow</a>
+    </nav>
+    <a class="btn" href="#platform">Explore platform <span class="arw" aria-hidden="true">→</span></a>
+  </div>
+</header>
+
+<main id="top">
+<!-- ============================ HERO ============================ -->
+<section class="hero">
+  <div class="hero-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="wrap hero-in">
+
+    <div class="hero-copy">
+      <p class="eyebrow">AI for designing healthier spaces</p>
+      <h1 class="hero-h">
+        <span class="ln">Design healthier</span>
+        <span class="ln">spaces with</span>
+        <span class="ln italic">artificial intelligence.</span>
+      </h1>
+      <p class="lede">Flowspace helps residential developers and architects evaluate, optimize, and visualize homes around wellness, cultural design frameworks, and real-world project constraints.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#platform">Explore the platform <span class="arw" aria-hidden="true">→</span></a>
+        <a class="btn ghost" href="#process">See how it works <span class="arw" aria-hidden="true">→</span></a>
+      </div>
+      <ul class="hero-meta">
+        <li>Wellness</li>
+        <li>Cultural alignment</li>
+        <li>Cost &amp; constraints</li>
+      </ul>
+    </div>
+
+    <!-- ---------- product panel ---------- -->
+    <div class="app-holder">
+    <div class="app" role="group" aria-label="Flowspace floor plan analysis preview">
+      <div class="app-bar">
+        <span class="dot" aria-hidden="true"></span>
+        <span>Project 0214</span>
+        <span class="sep">Meridian House · Option A</span>
+        <span class="tag">Analysis complete</span>
+      </div>
+
+      <div class="app-body">
+        <!-- plan -->
+        <div class="app-plan">
+          <div class="plan-figure">
+            <svg viewBox="0 0 490 390" role="img" aria-label="Residential floor plan: three bedrooms and a bath along a corridor spine, with kitchen, entry and living-dining below and a terrace beyond the south wall. Each room is annotated with its analysis reading, the daylight, airflow and indoor-outdoor edges are marked, the kitchen carries a Vastu review tag, and a dashed setback line runs outside the envelope.">
+              <!-- analysis zone: living / dining -->
+              <rect class="zone" x="235" y="198" width="185" height="102"/>
+
+              <!-- setback / buildable envelope -->
+              <path class="setback" d="M24 24 H436 V352 H24 Z"/>
+              <text class="rlabel sm setback-t" x="24" y="17">SETBACK</text>
+
+              <!-- sun direction, west elevation -->
+              <g class="ray">
+                <path d="M2 52 L18 68"/>
+                <path d="M2 82 L18 98"/>
+                <path d="M2 112 L18 128"/>
+              </g>
+
+              <!-- envelope: south wall broken for the front door -->
+              <g class="wall draw" style="--len:420">
+                <path d="M40 40 H420"/>
+                <path d="M420 40 V300"/>
+                <path d="M40 40 V300"/>
+                <path d="M40 300 H155"/>
+                <path d="M180 300 H420"/>
+              </g>
+
+              <!-- partitions: gaps are door and cased openings -->
+              <g class="part draw" style="--len:420">
+                <path d="M40 170 H95"/>
+                <path d="M120 170 H200"/>
+                <path d="M225 170 H320"/>
+                <path d="M345 170 H420"/>
+                <path d="M40 198 H85"/>
+                <path d="M110 198 H155"/>
+                <path d="M180 198 H300"/>
+                <path d="M340 198 H420"/>
+                <path d="M175 40 V170"/>
+                <path d="M255 40 V170"/>
+                <path d="M150 198 V300"/>
+                <path d="M235 198 V300"/>
+              </g>
+
+              <!-- analysis edges, on wall centrelines -->
+              <path class="edge-light" d="M40 70 V130"/>
+              <path class="edge-air" d="M420 215 V270"/>
+              <path class="edge-io" d="M260 300 H400"/>
+
+              <!-- terrace, beyond the envelope -->
+              <path class="hair" d="M260 300 V344 H410 V300"/>
+
+              <!-- door swings -->
+              <g class="hair">
+                <path d="M95 170 A25 25 0 0 1 120 145"/><path d="M120 170 V145"/>
+                <path d="M225 170 A25 25 0 0 1 200 195"/><path d="M200 170 V195"/>
+                <path d="M320 170 A25 25 0 0 1 345 145"/><path d="M345 170 V145"/>
+                <path d="M85 198 A25 25 0 0 0 110 223"/><path d="M110 198 V223"/>
+                <path d="M155 300 A25 25 0 0 1 180 275"/><path d="M180 300 V275"/>
+              </g>
+
+              <!-- circulation, held inside the corridor -->
+              <g class="circ">
+                <path d="M167 292 V184"/>
+                <path d="M97 210 V184 H320 V215"/>
+              </g>
+
+              <!-- room labels -->
+              <g class="rlabel" text-anchor="middle">
+                <text x="107" y="100">PRIMARY BEDROOM</text>
+                <text x="107" y="113" class="rlabel sm">Morning light · 82</text>
+
+                <text x="215" y="100">BATH</text>
+
+                <text x="337" y="98">BEDROOM 02</text>
+                <text x="337" y="111" class="rlabel sm">Acoustics · 67</text>
+
+                <text x="95" y="240">KITCHEN</text>
+
+                <text x="205" y="238">ENTRY</text>
+
+                <text x="327" y="240" class="rlabel on">LIVING / DINING</text>
+                <text x="327" y="253" class="rlabel sm on">Social connection · 83</text>
+
+                <text x="335" y="320">TERRACE</text>
+                <text x="335" y="333" class="rlabel sm">Biophilia · 74</text>
+              </g>
+
+              <!-- review tag on the kitchen -->
+              <g class="review">
+                <rect x="51" y="250" width="88" height="15"/>
+                <text class="rlabel sm" x="95" y="261" text-anchor="middle">REVIEW · VASTU</text>
+              </g>
+
+              <!-- north arrow -->
+              <g transform="translate(462 60)">
+                <circle class="hair" cx="0" cy="0" r="10"/>
+                <path class="dim" d="M0 7 V-7 M-3 -3 L0 -7 L3 -3"/>
+                <text class="rlabel sm" x="0" y="22" text-anchor="middle">N</text>
+              </g>
+
+              <!-- dimension string, broken for its text -->
+              <g class="dim">
+                <path d="M40 370 H206"/>
+                <path d="M254 370 H420"/>
+                <path d="M40 364 V376"/>
+                <path d="M420 364 V376"/>
+              </g>
+              <text class="rlabel sm" x="230" y="373" text-anchor="middle">62'-0"</text>
+            </svg>
+          </div>
+
+          <div class="plan-legend">
+            <span><b class="l-light"></b> Daylight</span>
+            <span><b class="l-air"></b> Airflow</span>
+            <span><b class="l-io"></b> Indoor/outdoor</span>
+          </div>
+        </div>
+
+        <!-- analysis rail -->
+        <div class="app-rail">
+          <div>
+            <p class="eyebrow">Design score</p>
+            <div class="score-block">
+              <span class="score-num" data-count="74">74</span>
+              <span class="score-den">/ 100</span>
+              <span class="score-delta">+15 potential</span>
+            </div>
+          </div>
+
+          <ul class="fw-readout">
+            <li><span>Wellness</span><b>74</b></li>
+            <li><span>Cultural alignment</span><b>70</b></li>
+            <li><span>Cost &amp; constraints</span><b>81</b></li>
+          </ul>
+
+          <div class="metrics" id="heroMetrics">
+            <div class="metric" data-v="82"><span class="m-label">Daylight access</span><span class="m-val">82</span><span class="m-track"><span class="m-fill"></span></span></div>
+            <div class="metric" data-v="61"><span class="m-label">Cross ventilation</span><span class="m-val">61</span><span class="m-track"><span class="m-fill"></span></span></div>
+            <div class="metric" data-v="67"><span class="m-label">Quiet zones</span><span class="m-val">67</span><span class="m-track"><span class="m-fill"></span></span></div>
+          </div>
+
+          <div class="opportunity">
+            <p class="eyebrow">Top opportunity</p>
+            <p>Extend the bedroom opening to improve morning light and airflow.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="badge-float"><span class="bx" aria-hidden="true">+</span> 4 viable design alternatives found</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================ PROCESS ============================ -->
+<section class="band" id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">01 — Product workflow</p>
+        <h2>From existing plan<br>to better alternatives.</h2>
+      </div>
+      <p>A structured workflow for faster, more informed residential design decisions.</p>
+    </div>
+
+    <div class="flow">
+      <article class="step">
+        <span class="step-n">01</span>
+        <figure>
+          <svg viewBox="0 0 200 96" role="img" aria-label="A drawing sheet being uploaded.">
+            <path class="hair" d="M36 20 H154 V88 H36 Z"/>
+            <path class="part" d="M55 40 H135 V74 H55 Z"/>
+            <path class="hair" d="M95 40 V74"/>
+            <path class="hair" d="M55 58 H95"/>
+            <g class="dim"><path d="M174 78 V32"/><path d="M167 41 L174 32 L181 41"/></g>
+          </svg>
+        </figure>
+        <h3>Upload</h3>
+        <p>Upload an existing floor plan or architectural design.</p>
+      </article>
+
+      <article class="step">
+        <span class="step-n">02</span>
+        <figure>
+          <svg viewBox="0 0 200 96" role="img" aria-label="A plan resolved into a graph of rooms and connections.">
+            <path class="part" d="M30 18 H170 V80 H30 Z"/>
+            <path class="hair" d="M100 18 V80"/>
+            <path class="hair" d="M100 50 H170"/>
+            <g class="circ">
+              <path d="M62 49 H100"/>
+              <path d="M100 49 L135 34"/>
+              <path d="M100 49 L135 65"/>
+            </g>
+            <g fill="var(--sage)">
+              <circle cx="62" cy="49" r="3"/><circle cx="135" cy="34" r="3"/>
+              <circle cx="135" cy="65" r="3"/><circle cx="100" cy="49" r="3"/>
+            </g>
+          </svg>
+        </figure>
+        <h3>Analyze</h3>
+        <p>Flowspace maps rooms, windows, doors, circulation, orientation, and the criteria behind all three pillars.</p>
+      </article>
+
+      <article class="step">
+        <span class="step-n">03</span>
+        <figure>
+          <svg viewBox="0 0 200 96" role="img" aria-label="An original plan with an optimized alternative overlaid.">
+            <rect class="zone" x="112" y="30" width="62" height="58"/>
+            <path class="hair" d="M26 16 H150 V74 H26 Z"/>
+            <path class="part" d="M50 30 H174 V88 H50 Z"/>
+            <path class="hair" d="M112 30 V88"/>
+          </svg>
+        </figure>
+        <h3>Optimize</h3>
+        <p>Set priorities across wellness, Vastu, Feng Shui, cost, target buyer, and project constraints.</p>
+      </article>
+
+      <article class="step">
+        <span class="step-n">04</span>
+        <figure>
+          <svg viewBox="0 0 200 96" role="img" aria-label="Two plan options side by side, A and B, with scores.">
+            <rect class="zone" x="146" y="56" width="36" height="24"/>
+            <path class="part" d="M24 22 H96 V80 H24 Z"/>
+            <path class="hair" d="M24 56 H96"/>
+            <path class="hair" d="M60 22 V56"/>
+            <path class="part" d="M110 22 H182 V80 H110 Z"/>
+            <path class="hair" d="M146 22 V80"/>
+            <path class="hair" d="M146 56 H182"/>
+            <text class="rlabel sm" x="24" y="15">A · 74</text>
+            <text class="rlabel sm on" x="110" y="15">B · 86</text>
+          </svg>
+        </figure>
+        <h3>Visualize</h3>
+        <p>Compare design options and visualize how the space could change before committing.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PLATFORM ============================ -->
+<section class="band" id="platform">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">02 — Design intelligence</p>
+        <h2>See the whole design,<br>not just a single score.</h2>
+      </div>
+      <p>Flowspace turns a floor plan into a structured view of performance across all three pillars, plus the design opportunities behind every score.</p>
+    </div>
+
+    <div class="app pl">
+      <div class="app-bar">
+        <span class="dot" aria-hidden="true"></span>
+        <span>Meridian House</span>
+        <span class="sep">Unit 4B · 2,180 sq ft · Southeast orientation</span>
+        <span class="tabset" aria-hidden="true"><i class="on">Overview</i><i>Floor plan</i><i>Alternatives</i></span>
+      </div>
+
+      <div class="pl-body">
+        <div class="pl-main">
+          <div class="pl-score">
+            <div>
+              <p class="eyebrow">Composite design score</p>
+              <div class="score-block">
+                <span class="score-num" data-count="74">74</span>
+                <span class="score-den">/ 100</span>
+              </div>
+            </div>
+            <p class="pl-note">Strong social connection and daylight access. Ventilation and acoustic zoning offer the largest wellness gains, kitchen placement is the biggest Vastu opportunity, and the design still sits inside the budget envelope.</p>
+          </div>
+
+          <div class="fwtabs" role="tablist" aria-label="Design pillars">
+            <button class="fwtab" role="tab" id="fwt-well" aria-controls="fwp-well" aria-selected="true">Wellness <b>74</b></button>
+            <button class="fwtab" role="tab" id="fwt-cult" aria-controls="fwp-cult" aria-selected="false">Cultural alignment <b>70</b></button>
+            <button class="fwtab" role="tab" id="fwt-cost" aria-controls="fwp-cost" aria-selected="false">Cost &amp; constraints <b>81</b></button>
+          </div>
+
+          <!-- pillar 01 -->
+          <div class="pl-panel" role="tabpanel" id="fwp-well" aria-labelledby="fwt-well">
+            <div class="tiles">
+              <div class="tile" data-v="82"><span class="t-k">Natural light</span><span class="t-v">82</span><span class="t-track"><span class="t-fill"></span></span></div>
+              <div class="tile" data-v="61" data-flag="low"><span class="t-k">Air &amp; ventilation</span><span class="t-v">61</span><span class="t-track"><span class="t-fill"></span></span></div>
+              <div class="tile" data-v="67" data-flag="low"><span class="t-k">Acoustic comfort</span><span class="t-v">67</span><span class="t-track"><span class="t-fill"></span></span></div>
+              <div class="tile" data-v="69"><span class="t-k">Sleep environment</span><span class="t-v">69</span><span class="t-track"><span class="t-fill"></span></span></div>
+              <div class="tile" data-v="78"><span class="t-k">Thermal comfort</span><span class="t-v">78</span><span class="t-track"><span class="t-fill"></span></span></div>
+              <div class="tile" data-v="74"><span class="t-k">Biophilic design</span><span class="t-v">74</span><span class="t-track"><span class="t-fill"></span></span></div>
+              <div class="tile" data-v="71"><span class="t-k">Movement</span><span class="t-v">71</span><span class="t-track"><span class="t-fill"></span></span></div>
+              <div class="tile" data-v="83"><span class="t-k">Social connection</span><span class="t-v">83</span><span class="t-track"><span class="t-fill"></span></span></div>
+            </div>
+          </div>
+
+          <!-- pillar 02 -->
+          <div class="pl-panel" role="tabpanel" id="fwp-cult" aria-labelledby="fwt-cult" hidden>
+            <div class="subgroup">
+              <p class="sub-h">Vastu <b>62</b></p>
+              <div class="tiles">
+                <div class="tile" data-v="71"><span class="t-k">Orientation</span><span class="t-v">71</span><span class="t-track"><span class="t-fill"></span></span></div>
+                <div class="tile" data-v="58" data-flag="low"><span class="t-k">Entrance</span><span class="t-v">58</span><span class="t-track"><span class="t-fill"></span></span></div>
+                <div class="tile" data-v="64" data-flag="low"><span class="t-k">Room placement</span><span class="t-v">64</span><span class="t-track"><span class="t-fill"></span></span></div>
+                <div class="tile" data-v="41" data-flag="low"><span class="t-k">Kitchen</span><span class="t-v">41</span><span class="t-track"><span class="t-fill"></span></span></div>
+                <div class="tile" data-v="66" data-flag="low"><span class="t-k">Bedrooms</span><span class="t-v">66</span><span class="t-track"><span class="t-fill"></span></span></div>
+                <div class="tile" data-v="60" data-flag="low"><span class="t-k">Bathrooms</span><span class="t-v">60</span><span class="t-track"><span class="t-fill"></span></span></div>
+                <div class="tile" data-v="70"><span class="t-k">Spatial relationships</span><span class="t-v">70</span><span class="t-track"><span class="t-fill"></span></span></div>
+              </div>
+            </div>
+            <div class="subgroup">
+              <p class="sub-h">Feng Shui <b>78</b></p>
+              <div class="tiles">
+                <div class="tile" data-v="82"><span class="t-k">Orientation</span><span class="t-v">82</span><span class="t-track"><span class="t-fill"></span></span></div>
+                <div class="tile" data-v="74"><span class="t-k">Entry</span><span class="t-v">74</span><span class="t-track"><span class="t-fill"></span></span></div>
+                <div class="tile" data-v="71"><span class="t-k">Spatial flow</span><span class="t-v">71</span><span class="t-track"><span class="t-fill"></span></span></div>
+                <div class="tile" data-v="79"><span class="t-k">Room positioning</span><span class="t-v">79</span><span class="t-track"><span class="t-fill"></span></span></div>
+                <div class="tile" data-v="80"><span class="t-k">Balance</span><span class="t-v">80</span><span class="t-track"><span class="t-fill"></span></span></div>
+                <div class="tile" data-v="84"><span class="t-k">Natural elements</span><span class="t-v">84</span><span class="t-track"><span class="t-fill"></span></span></div>
+                <div class="tile" data-v="76"><span class="t-k">Spatial relationships</span><span class="t-v">76</span><span class="t-track"><span class="t-fill"></span></span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- pillar 03 -->
+          <div class="pl-panel" role="tabpanel" id="fwp-cost" aria-labelledby="fwt-cost" hidden>
+            <ul class="cons">
+              <li><span class="c-k">Construction cost</span><span class="c-v">$600K of $610K cap</span><span class="c-s ok">Within budget</span></li>
+              <li><span class="c-k">Square footage</span><span class="c-v">2,180 sf of 2,200 sf target</span><span class="c-s ok">Program met</span></li>
+              <li><span class="c-k">Bedrooms</span><span class="c-v">4 of 4 required</span><span class="c-s ok">Met</span></li>
+              <li><span class="c-k">Lot dimensions</span><span class="c-v">62'-0" × 104'-0"</span><span class="c-s ok">Fits</span></li>
+              <li><span class="c-k">Building constraints</span><span class="c-v">Side setback at 4'-6" minimum</span><span class="c-s warn">Tight</span></li>
+              <li><span class="c-k">Target buyer</span><span class="c-v">Wellness-led urban family</span><span class="c-s ok">Strong fit</span></li>
+              <li><span class="c-k">Developer priorities</span><span class="c-v">Light + quiet bedrooms</span><span class="c-s ok">Weighted</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="pl-side">
+          <div class="pl-block">
+            <p class="eyebrow">Design pillars</p>
+            <ul class="fw-rows">
+              <li><span class="fw-n"><i aria-hidden="true"></i>Wellness</span><span class="fw-s">Active · 74</span></li>
+              <li><span class="fw-n"><i aria-hidden="true"></i>Cultural alignment</span><span class="fw-s">Active · 70</span></li>
+              <li class="fw-sub"><span class="fw-n">Vastu</span><span class="fw-s">62</span></li>
+              <li class="fw-sub"><span class="fw-n">Feng Shui</span><span class="fw-s">78</span></li>
+              <li><span class="fw-n"><i aria-hidden="true"></i>Cost &amp; constraints</span><span class="fw-s">Active · 81</span></li>
+            </ul>
+            <p class="pl-fine">Each pillar is evaluated independently against its own criteria, scored on its own scale, and weighted by your team.</p>
+          </div>
+
+          <div class="pl-block">
+            <p class="eyebrow">Top opportunities</p>
+            <ol class="ops">
+              <li><span>01</span>Improve natural light in primary bedroom</li>
+              <li><span>02</span>Reduce bedroom exposure to living-room noise</li>
+              <li><span>03</span>Improve indoor/outdoor connection</li>
+              <li><span>04</span>Reconsider kitchen placement for Vastu alignment</li>
+              <li><span>05</span>Open the entry sightline to improve spatial flow</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ OPTIMIZATION ============================ -->
+<section class="band opt" id="optimization">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">03 — Design optimization</p>
+        <h2>Don't just evaluate the design. <span class="italic">Improve it.</span></h2>
+      </div>
+      <p>Explore alternatives around the priorities that matter to the project, rather than accepting one universal answer.</p>
+    </div>
+
+    <div class="strat">
+      <article>
+        <p class="eyebrow">Highest wellbeing</p>
+        <h3>Wellness Optimized</h3>
+        <p>Maximize health and wellbeing considerations across light, air, acoustics, sleep, movement, and connection.</p>
+      </article>
+      <article>
+        <p class="eyebrow">Selected traditions</p>
+        <h3>Culturally Aligned</h3>
+        <p>Optimize according to the Vastu and Feng Shui frameworks selected for a specific buyer or market.</p>
+      </article>
+      <article>
+        <p class="eyebrow">Tightest budget</p>
+        <h3>Cost Optimized</h3>
+        <p>Hold the program and site constraints while bringing construction cost down as far as the plan allows.</p>
+      </article>
+      <article>
+        <p class="eyebrow">Best tradeoff</p>
+        <h3>Balanced</h3>
+        <p>Find a practical balance between wellness, cultural alignment, cost, and project constraints.</p>
+      </article>
+    </div>
+
+    <div class="alts">
+      <div class="alts-head">
+        <p>Compare design alternatives</p>
+        <p class="alts-sub">Project constraints held constant</p>
+      </div>
+      <div class="alts-scroll">
+        <table>
+          <thead>
+            <tr class="tier">
+              <th scope="col" rowspan="2">Option</th>
+              <th scope="col" rowspan="2">Wellness</th>
+              <th scope="colgroup" colspan="2" class="grp">Cultural alignment</th>
+              <th scope="col" rowspan="2">Estimated cost</th>
+            </tr>
+            <tr>
+              <th scope="col" class="sub">Vastu</th>
+              <th scope="col" class="sub">Feng Shui</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Current Design</th>
+              <td>74</td><td class="g1">62</td><td class="g2">78</td><td class="c">$600K</td>
+            </tr>
+            <tr>
+              <th scope="row">Wellness Optimized</th>
+              <td class="hi">89</td><td class="g1">61</td><td class="g2">80</td><td class="c">$608K</td>
+            </tr>
+            <tr>
+              <th scope="row">Culturally Aligned</th>
+              <td>79</td><td class="g1 hi">91</td><td class="g2 hi">88</td><td class="c">$611K</td>
+            </tr>
+            <tr>
+              <th scope="row">Cost Optimized</th>
+              <td>76</td><td class="g1">66</td><td class="g2">78</td><td class="c hi">$588K</td>
+            </tr>
+            <tr class="rec-row">
+              <th scope="row">Balanced Design <em>Recommended</em></th>
+              <td class="hi">86</td><td class="g1 hi">87</td><td class="g2 hi">84</td><td class="c">$604K</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="alts-fine">Illustrative prototype scores only. These are not scientifically validated predictions and should not replace professional architectural judgment.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FRAMEWORKS ============================ -->
+<section class="band fw" id="frameworks">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">04 — Design frameworks</p>
+        <h2>Design is personal.</h2>
+      </div>
+      <p>Different clients and markets have different ideas about what makes a home feel right. Flowspace evaluates every home through three equal pillars — wellness, cultural alignment, and the cost and constraints of actually building it.</p>
+    </div>
+
+    <div class="fw-cards">
+      <article>
+        <div class="fw-i"><span>Pillar 01</span><span>8 criteria</span></div>
+        <figure>
+          <svg viewBox="0 0 200 110" role="img" aria-label="Radar chart of the eight wellness criteria for the example project: natural light 82, acoustic comfort 67, air and ventilation 61, sleep environment 69, thermal comfort 78, biophilic design 74, movement 71, social connection 83. Air and ventilation and acoustic comfort are marked as the weakest axes.">
+            <!-- scale rings -->
+            <g class="hair">
+              <circle cx="100" cy="55" r="13.3" fill="none"/>
+              <circle cx="100" cy="55" r="26.7" fill="none"/>
+              <circle cx="100" cy="55" r="40" fill="none"/>
+            </g>
+
+            <!-- eight axes -->
+            <g class="hair">
+              <path d="M100 15 V95"/>
+              <path d="M60 55 H140"/>
+              <path d="M71.7 26.7 L128.3 83.3"/>
+              <path d="M128.3 26.7 L71.7 83.3"/>
+            </g>
+
+            <!-- measured profile -->
+            <path class="radar" d="M100 22.2 L118.9 36.1 L124.4 55 L119.5 74.5 L100 86.2 L79.1 75.9 L71.6 55 L76.5 31.5 Z"/>
+
+            <!-- weakest axes -->
+            <circle class="radar-low" cx="124.4" cy="55" r="1.9"/>
+            <circle class="radar-low" cx="118.9" cy="36.1" r="1.9"/>
+
+            <g class="rlabel sm">
+              <text x="100" y="10" text-anchor="middle">LIGHT</text>
+              <text x="144" y="57">AIR</text>
+              <text x="100" y="105" text-anchor="middle">THERMAL</text>
+              <text x="56" y="57" text-anchor="end">MOVEMENT</text>
+            </g>
+          </svg>
+        </figure>
+        <h3>Wellness</h3>
+        <p class="fw-d">Designing for human wellbeing.</p>
+        <ul class="crit">
+          <li>Natural light</li><li>Air &amp; ventilation</li><li>Acoustic comfort</li>
+          <li>Sleep environment</li><li>Thermal comfort</li><li>Biophilic design</li>
+          <li>Movement</li><li>Social connection</li>
+        </ul>
+      </article>
+
+      <article>
+        <div class="fw-i"><span>Pillar 02</span><span>2 frameworks · 14 criteria</span></div>
+        <figure>
+          <svg viewBox="0 0 200 110" role="img" aria-label="A nine-square Vastu grid beside an octagonal eight-sector Feng Shui diagram.">
+            <!-- Vastu: nine-square grid, north-east cell marked -->
+            <rect class="zone" x="62" y="16" width="20" height="24"/>
+            <path class="part" d="M22 16 H82 V88 H22 Z"/>
+            <g class="hair">
+              <path d="M42 16 V88"/><path d="M62 16 V88"/>
+              <path d="M22 40 H82"/><path d="M22 64 H82"/>
+            </g>
+            <circle class="hair" cx="52" cy="52" r="8"/>
+            <text class="rlabel sm" x="52" y="11" text-anchor="middle">N</text>
+            <text class="rlabel sm" x="22" y="102">VASTU</text>
+
+            <!-- Feng Shui: eight sectors, flow from the entry -->
+            <path class="part" d="M132 24 H164 L178 38 V66 L164 80 H132 L118 66 V38 Z"/>
+            <g class="hair">
+              <path d="M132 24 L164 80"/><path d="M164 24 L132 80"/>
+              <path d="M118 52 H178"/><path d="M148 24 V80"/>
+            </g>
+            <circle class="hair" cx="148" cy="52" r="8"/>
+            <path class="circ" d="M148 82 C148 70 130 68 134 56 C138 44 162 46 168 34"/>
+            <text class="rlabel sm" x="118" y="102">FENG SHUI</text>
+          </svg>
+        </figure>
+        <h3>Cultural alignment</h3>
+        <p class="fw-d">Designing around the traditions your buyers live by.</p>
+        <ul class="crit">
+          <li>Orientation</li><li>Entrance &amp; entry</li><li>Room placement</li><li>Kitchen</li>
+          <li>Bedrooms</li><li>Bathrooms</li><li>Spatial flow</li><li>Balance</li>
+          <li>Natural elements</li><li>Spatial relationships</li>
+        </ul>
+      </article>
+
+      <article>
+        <div class="fw-i"><span>Pillar 03</span><span>7 criteria</span></div>
+        <figure>
+          <svg viewBox="0 0 200 110" role="img" aria-label="Site plan showing a lot boundary, dashed setback offsets, a building footprint and dimension strings.">
+            <path class="hair" d="M20 14 H172 V84 H20 Z"/>
+            <path class="setback" d="M32 24 H160 V74 H32 Z"/>
+            <path class="part" d="M48 34 H136 V66 H48 Z"/>
+            <path class="hair" d="M98 34 V66"/>
+            <g class="dim">
+              <path d="M20 98 H76"/>
+              <path d="M124 98 H172"/>
+              <path d="M20 93 V103"/>
+              <path d="M172 93 V103"/>
+              <path d="M184 14 V84"/>
+              <path d="M179 14 H189"/>
+              <path d="M179 84 H189"/>
+            </g>
+            <text class="rlabel sm" x="100" y="101" text-anchor="middle">62'-0"</text>
+          </svg>
+        </figure>
+        <h3>Cost &amp; constraints</h3>
+        <p class="fw-d">Designing within what can actually be built.</p>
+        <ul class="crit">
+          <li>Lot dimensions</li><li>Square footage</li><li>Bedrooms</li>
+          <li>Construction cost</li><li>Building constraints</li><li>Target buyer</li>
+          <li>Developer priorities</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="fw-foot">
+      <p>Each pillar stays clearly identified, independently weighted, and transparent — giving teams a structured way to respond to how their buyers actually think about a home, and to see exactly where the three agree and where they pull against each other.</p>
+
+      <div class="profile">
+        <div class="profile-head">
+          <div>
+            <p class="p-t">Evaluation profile</p>
+            <p class="p-s">Set weighting for this project</p>
+          </div>
+          <span class="p-badge">Adjustable per project</span>
+        </div>
+
+        <div class="profile-presets" role="group" aria-label="Buyer profile">
+          <button class="pp" data-profile="wellness" aria-pressed="true">Wellness-led</button>
+          <button class="pp" data-profile="tradition" aria-pressed="false">Tradition-led</button>
+          <button class="pp" data-profile="value" aria-pressed="false">Value-led</button>
+        </div>
+
+        <div class="weights" id="weights">
+          <div class="weight" data-w="wellness"><span class="w-k">Wellness</span><span class="w-v">45%</span><span class="w-track"><span class="w-fill" style="width:45%"></span></span></div>
+          <div class="weight" data-w="cultural"><span class="w-k">Cultural alignment</span><span class="w-v">25%</span><span class="w-track"><span class="w-fill" style="width:25%"></span></span></div>
+          <div class="weight" data-w="cost"><span class="w-k">Cost &amp; constraints</span><span class="w-v">30%</span><span class="w-track"><span class="w-fill" style="width:30%"></span></span></div>
+        </div>
+
+        <p class="p-fine">Equal standing · weighted per project</p>
+
+        <div class="p-tiles">
+          <div><span class="k">Target buyer</span><span class="v" data-tile="buyer">Wellness-led urban family</span></div>
+          <div><span class="k">Priority</span><span class="v" data-tile="priority">Light + quiet bedrooms</span></div>
+          <div><span class="k">Cost range</span><span class="v">$590K–$610K</span></div>
+          <div><span class="k">Orientation</span><span class="v">Southeast fixed</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PRACTICE ============================ -->
+<section class="band tech" id="practice">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">05 — Designed for practice</p>
+        <h2>Built to work with the tools<br>architects already use.</h2>
+      </div>
+      <p>Flowspace is not a replacement for CAD, BIM, Revit, or architectural expertise. It is a design intelligence layer that works alongside existing workflows.</p>
+    </div>
+
+    <div class="layer">
+      <article>
+        <p class="eyebrow">Existing workflow</p>
+        <h3>CAD · BIM · Revit</h3>
+        <p>Plans, models, project data, and professional expertise.</p>
+      </article>
+      <span class="layer-arw" aria-hidden="true">
+        <svg viewBox="0 0 40 12"><path d="M0 6 H32 M27 2 L32 6 L27 10" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+      </span>
+      <article class="mid">
+        <p class="eyebrow">Intelligence layer</p>
+        <h3>Flowspace</h3>
+        <p>Structured analysis, three pillar scores, constraints, and alternatives.</p>
+      </article>
+      <span class="layer-arw" aria-hidden="true">
+        <svg viewBox="0 0 40 12"><path d="M0 6 H32 M27 2 L32 6 L27 10" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+      </span>
+      <article>
+        <p class="eyebrow">Project outcome</p>
+        <h3>Better decisions</h3>
+        <p>Faster iteration, clearer tradeoffs, and differentiated properties.</p>
+      </article>
+    </div>
+
+    <p class="pull">Flowspace doesn't replace the architect. It gives them <span class="italic">another layer of intelligence.</span></p>
+  </div>
+</section>
+
+<!-- ============================ TEAMS ============================ -->
+<section class="band" id="teams">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">06 — Built for residential teams</p>
+        <h2>Design intelligence for the<br>people shaping how we live.</h2>
+      </div>
+      <p>Help every project move from subjective debate toward clear, comparable design tradeoffs — without disrupting the tools or judgment your team already trusts.</p>
+    </div>
+
+    <div class="teams-grid">
+      <ul class="cust">
+        <li>Residential developers</li>
+        <li>Multifamily developers</li>
+        <li>Luxury home builders</li>
+        <li>Architects &amp; design firms</li>
+      </ul>
+      <ul class="bens">
+        <li>Differentiate properties</li>
+        <li>Reduce design iteration</li>
+        <li>Respond to buyer preferences</li>
+        <li>Embed wellness earlier</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CTA ============================ -->
+<section class="band cta">
+  <div class="wrap cta-in">
+    <p class="eyebrow">The next residential design workflow</p>
+    <h2>What could your next<br>home look like?</h2>
+    <p>We're exploring how AI can make healthier, more personalized residential design faster and more accessible.</p>
+    <div class="cta-actions">
+      <a class="btn on-ink" href="#platform">Explore Flowspace <span class="arw" aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span class="mark">
+      <svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true">
+        <rect x="1.6" y="1.6" width="16.8" height="16.8" fill="none" stroke="currentColor" stroke-width="1.6"/>
+        <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square">
+          <path d="M6.8 3.6 V16.4"/>
+          <path d="M6.8 3.6 H15.6"/>
+          <path d="M6.8 9.6 H12.8"/>
+        </g>
+      </svg>
+      <span>Flowspace</span>
+    </span>
+    <span>AI design intelligence for residential architecture.</span>
+    <span class="r">© 2026 Flowspace Labs</span>
+  </div>
+</footer>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

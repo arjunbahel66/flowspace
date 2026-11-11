@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512" role="img" aria-label="Flowspace mark: a floor plan whose structural partition walls trace the letter F.">
+  <title>Flowspace mark</title>
+
+  <!-- ============================================================
+       A floor plan in which the three structural partitions form
+       an F: a full-height stem with a long upper arm and a shorter
+       middle arm. The F strokes are the heavy, unbroken lines; the
+       secondary partitions are lighter and broken by door openings,
+       so the letter reads as figure and the rest as ground.
+       ============================================================ -->
+
+  <!-- secondary partitions — lighter, with door gaps (camouflage) -->
+  <g fill="none" stroke="#101C2B" stroke-width="1.5" stroke-linecap="butt" opacity="0.55">
+    <path d="M8 68 H21"/>
+    <path d="M27 68 H34"/>
+    <path d="M60 48 V63"/>
+    <path d="M60 71 V92"/>
+    <path d="M78 8 V12"/>
+    <path d="M78 16 V18"/>
+  </g>
+
+  <!-- the hidden F — heavy, continuous -->
+  <g fill="none" stroke="#101C2B" stroke-width="3" stroke-linecap="square">
+    <path d="M34 18 V82"/>
+    <path d="M34 18 H78"/>
+    <path d="M34 48 H64"/>
+  </g>
+
+  <!-- building envelope -->
+  <rect x="8" y="8" width="84" height="84" fill="none" stroke="#101C2B" stroke-width="3.4"/>
+
+  <!-- single accent: glazing on the east wall -->
+  <path d="M92 30 V54" fill="none" stroke="#4F7A66" stroke-width="3.4" stroke-linecap="butt"/>
+</svg>

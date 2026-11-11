@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img" aria-label="Flowspace logo: a floor plan whose structural walls trace the letter F, above the Flowspace wordmark.">
+  <title>Flowspace</title>
+  <rect width="1200" height="1200" fill="#F2F1EC"/>
+  <g fill="none" stroke="#101C2B" stroke-width="4.5" opacity="0.55">
+  <path d="M474 494 L513 494"/>
+  <path d="M531 494 L552 494"/>
+  <path d="M630 434 L630 479"/>
+  <path d="M630 503 L630 566"/>
+  <path d="M684 314 L684 326"/>
+  <path d="M684 338 L684 344"/>
+  </g>
+  <g fill="none" stroke="#101C2B" stroke-width="9" stroke-linecap="square">
+  <path d="M552 344 L552 536"/>
+  <path d="M552 344 L684 344"/>
+  <path d="M552 434 L642 434"/>
+  </g>
+  <rect x="474" y="314" width="252" height="252" fill="none" stroke="#101C2B" stroke-width="10.2"/>
+  <path d="M726 380 L726 452" fill="none" stroke="#4F7A66" stroke-width="10.2"/>
+  <text x="344.0" y="760" fill="#101C2B" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="76">F</text>
+  <text x="408.0" y="760" fill="#101C2B" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="76">L</text>
+  <text x="472.0" y="760" fill="#101C2B" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="76">O</text>
+  <text x="536.0" y="760" fill="#101C2B" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="76">W</text>
+  <text x="600.0" y="760" fill="#101C2B" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="76">S</text>
+  <text x="664.0" y="760" fill="#101C2B" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="76">P</text>
+  <text x="728.0" y="760" fill="#101C2B" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="76">A</text>
+  <text x="792.0" y="760" fill="#101C2B" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="76">C</text>
+  <text x="856.0" y="760" fill="#101C2B" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="76">E</text>
+  <path d="M312 800 H888" stroke="#CFCEC6" stroke-width="1.2" fill="none"/>
+  <text x="334.4" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">A</text>
+  <text x="351.0" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">I</text>
+  <text x="384.2" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">F</text>
+  <text x="400.8" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">O</text>
+  <text x="417.4" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">R</text>
+  <text x="450.6" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">D</text>
+  <text x="467.2" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">E</text>
+  <text x="483.8" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">S</text>
+  <text x="500.4" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">I</text>
+  <text x="517.0" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">G</text>
+  <text x="533.6" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">N</text>
+  <text x="550.2" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">I</text>
+  <text x="566.8" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">N</text>
+  <text x="583.4" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">G</text>
+  <text x="616.6" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">H</text>
+  <text x="633.2" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">E</text>
+  <text x="649.8" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">A</text>
+  <text x="666.4" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">L</text>
+  <text x="683.0" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">T</text>
+  <text x="699.6" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">H</text>
+  <text x="716.2" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">I</text>
+  <text x="732.8" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">E</text>
+  <text x="749.4" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">R</text>
+  <text x="782.6" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">S</text>
+  <text x="799.2" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">P</text>
+  <text x="815.8" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">A</text>
+  <text x="832.4" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">C</text>
+  <text x="849.0" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">E</text>
+  <text x="865.6" y="845" fill="#6E7F91" text-anchor="middle" font-family="'IBM Plex Mono',Menlo,monospace" font-size="20">S</text>
+</svg>

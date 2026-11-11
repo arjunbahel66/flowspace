@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <style>
+    .ink { stroke: #101C2B; }
+    .acc { stroke: #4F7A66; }
+    @media (prefers-color-scheme: dark) {
+      .ink { stroke: #EDEEEA; }
+      .acc { stroke: #7FAE94; }
+    }
+  </style>
+  <!-- Plan whose structural walls form an F. Optically corrected for 16px:
+       secondary partitions dropped, strokes thickened. -->
+  <rect class="ink" x="1.6" y="1.6" width="16.8" height="16.8" fill="none" stroke-width="1.5"/>
+  <g class="ink" fill="none" stroke-width="1.4" stroke-linecap="square">
+    <path d="M6.8 3.6 V16.4"/>
+    <path d="M6.8 3.6 H15.6"/>
+    <path d="M6.8 9.6 H12.8"/>
+  </g>
+  <path class="acc" d="M18.4 6 V10.8" fill="none" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Flowspace logo: a floor plan whose structural walls trace an F, beside the Flowspace wordmark.">
+  <title>Flowspace — logo lockup, light</title>
+  <rect width="1200" height="380" fill="#F2F1EC"/>
+
+  <g transform="translate(96 90) scale(2)">
+    <g fill="none" stroke="#101C2B" stroke-width="1.5" opacity="0.55">
+      <path d="M8 68 H21"/><path d="M27 68 H34"/>
+      <path d="M60 48 V63"/><path d="M60 71 V92"/>
+      <path d="M78 8 V12"/><path d="M78 16 V18"/>
+    </g>
+    <g fill="none" stroke="#101C2B" stroke-width="3" stroke-linecap="square">
+      <path d="M34 18 V82"/>
+      <path d="M34 18 H78"/>
+      <path d="M34 48 H64"/>
+    </g>
+    <rect x="8" y="8" width="84" height="84" fill="none" stroke="#101C2B" stroke-width="3.4"/>
+    <path d="M92 30 V54" fill="none" stroke="#4F7A66" stroke-width="3.4"/>
+  </g>
+
+  <text x="352" y="207" fill="#101C2B"
+        font-family="'IBM Plex Mono','SFMono-Regular',Menlo,monospace"
+        font-size="82" letter-spacing="16">FLOWSPACE</text>
+
+  <path d="M352 238 H1104" stroke="#CFCEC6" stroke-width="1" fill="none"/>
+
+  <text x="352" y="272" fill="#6E7F91"
+        font-family="'IBM Plex Mono','SFMono-Regular',Menlo,monospace"
+        font-size="19" letter-spacing="3.4">AI FOR DESIGNING HEALTHIER SPACES</text>
+</svg>
